@@ -18,6 +18,7 @@
 		5C1DD62617D2252800FC208B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1DD62517D2252800FC208B /* Default-568h@2x.png */; };
 		5C1DD62917D2252900FC208B /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1DD62817D2252900FC208B /* KKViewController.m */; };
 		5C1DD62C17D2252900FC208B /* KKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1DD62A17D2252900FC208B /* KKViewController.xib */; };
+		ACC1D0EE5FBBAEDEA924A37F /* KKActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC1D82268AE8284D52FA7F9 /* KKActivityItemProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		5C1DD62717D2252900FC208B /* KKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
 		5C1DD62817D2252900FC208B /* KKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
 		5C1DD62B17D2252900FC208B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KKViewController.xib; sourceTree = "<group>"; };
+		ACC1D82268AE8284D52FA7F9 /* KKActivityItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActivityItemProvider.m; sourceTree = "<group>"; };
+		ACC1DD7F38D67B8E33BC0817 /* KKActivityItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActivityItemProvider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				5C1DD62817D2252900FC208B /* KKViewController.m */,
 				5C1DD62A17D2252900FC208B /* KKViewController.xib */,
 				5C1DD61617D2252800FC208B /* Supporting Files */,
+				ACC1D82268AE8284D52FA7F9 /* KKActivityItemProvider.m */,
+				ACC1DD7F38D67B8E33BC0817 /* KKActivityItemProvider.h */,
 			);
 			path = DoSomethingBeforeSharing;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				5C1DD61C17D2252800FC208B /* main.m in Sources */,
 				5C1DD62017D2252800FC208B /* KKAppDelegate.m in Sources */,
 				5C1DD62917D2252900FC208B /* KKViewController.m in Sources */,
+				ACC1D0EE5FBBAEDEA924A37F /* KKActivityItemProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

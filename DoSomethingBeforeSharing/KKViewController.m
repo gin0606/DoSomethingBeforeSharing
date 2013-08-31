@@ -7,6 +7,7 @@
 //
 
 #import "KKViewController.h"
+#import "KKActivityItemProvider.h"
 
 @interface KKViewController ()
 
@@ -27,6 +28,10 @@
 }
 
 - (IBAction)onTapShareButton:(id)sender {
+    KKActivityItemProvider *itemProvider = [[KKActivityItemProvider alloc] initWithPlaceholderItem:@"some item"];
+    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:@[itemProvider]
+                                                                                         applicationActivities:nil];
+    [self presentViewController:activityViewController animated:YES completion:nil];
 }
 
 @end
